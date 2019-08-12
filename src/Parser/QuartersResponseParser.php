@@ -1,9 +1,9 @@
 <?php
 
-namespace VM5\Econt\Parser;
+namespace HemiFrame\Lib\Econt\Parser;
 
-use VM5\Econt\Model\Quarter;
-use VM5\Econt\Response\QuartersResponse;
+use HemiFrame\Lib\Econt\Model\Quarter;
+use HemiFrame\Lib\Econt\Response\QuartersResponse;
 
 class QuartersResponseParser implements Parser
 {

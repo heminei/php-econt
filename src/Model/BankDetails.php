@@ -6,7 +6,7 @@
  * Time: 6:27 PM
  */
 
-namespace VM5\Econt\Model;
+namespace HemiFrame\Lib\Econt\Model;
 
 
 class BankDetails

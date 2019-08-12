@@ -6,10 +6,10 @@
  * Time: 5:43 PM
  */
 
-namespace VM5\Econt\Request;
+namespace HemiFrame\Lib\Econt\Request;
 
 
-use VM5\Econt\Model\Address;
+use HemiFrame\Lib\Econt\Model\Address;
 
 class AddressValidationRequest
 {

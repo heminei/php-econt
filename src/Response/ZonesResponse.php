@@ -1,8 +1,8 @@
 <?php
 
-namespace VM5\Econt\Response;
+namespace HemiFrame\Lib\Econt\Response;
 
-use VM5\Econt\Model\Zone;
+use HemiFrame\Lib\Econt\Model\Zone;
 
 class ZonesResponse
 {

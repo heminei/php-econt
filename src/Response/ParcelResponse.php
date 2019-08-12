@@ -6,10 +6,10 @@
  * Time: 7:24 PM
  */
 
-namespace VM5\Econt\Response;
+namespace HemiFrame\Lib\Econt\Response;
 
 
-use VM5\Econt\Model\ParcelResult;
+use HemiFrame\Lib\Econt\Model\ParcelResult;
 
 class ParcelResponse
 {

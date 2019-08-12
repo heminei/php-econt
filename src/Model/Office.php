@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Created by PhpStorm.
  * User: bozhidar.hristov
@@ -6,7 +7,7 @@
  * Time: 3:54 PM
  */
 
-namespace VM5\Econt\Model;
+namespace HemiFrame\Lib\Econt\Model;
 
 
 class Office
@@ -150,6 +151,36 @@ class Office
      * @var string
      */
     private $hubNameEnglish;
+
+    /**
+     * @var bool
+     */
+    private $isCourier;
+
+    /**
+     * @var bool
+     */
+    private $isPost;
+
+    /**
+     * @var bool
+     */
+    private $isCargo;
+
+    /**
+     * @var bool
+     */
+    private $isCargoExpress;
+
+    /**
+     * @var float
+     */
+    private $latitude;
+
+    /**
+     * @var float
+     */
+    private $longitude;
 
     /**
      * @return int
@@ -679,6 +710,150 @@ class Office
     public function setEmail(string $email): Office
     {
         $this->email = $email;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of isCourier
+     *
+     * @return  bool
+     */
+    public function getIsCourier()
+    {
+        return $this->isCourier;
+    }
+
+    /**
+     * Set the value of isCourier
+     *
+     * @param  bool  $isCourier
+     *
+     * @return  self
+     */
+    public function setIsCourier(bool $isCourier)
+    {
+        $this->isCourier = $isCourier;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of isPost
+     *
+     * @return  bool
+     */
+    public function getIsPost()
+    {
+        return $this->isPost;
+    }
+
+    /**
+     * Set the value of isPost
+     *
+     * @param  bool  $isPost
+     *
+     * @return  self
+     */
+    public function setIsPost(bool $isPost)
+    {
+        $this->isPost = $isPost;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of isCargo
+     *
+     * @return  bool
+     */
+    public function getIsCargo()
+    {
+        return $this->isCargo;
+    }
+
+    /**
+     * Set the value of isCargo
+     *
+     * @param  bool  $isCargo
+     *
+     * @return  self
+     */
+    public function setIsCargo(bool $isCargo)
+    {
+        $this->isCargo = $isCargo;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of isCargoExpress
+     *
+     * @return  bool
+     */
+    public function getIsCargoExpress()
+    {
+        return $this->isCargoExpress;
+    }
+
+    /**
+     * Set the value of isCargoExpress
+     *
+     * @param  bool  $isCargoExpress
+     *
+     * @return  self
+     */
+    public function setIsCargoExpress(bool $isCargoExpress)
+    {
+        $this->isCargoExpress = $isCargoExpress;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of latitude
+     *
+     * @return  float
+     */
+    public function getLatitude()
+    {
+        return $this->latitude;
+    }
+
+    /**
+     * Set the value of latitude
+     *
+     * @param  float  $latitude
+     *
+     * @return  self
+     */
+    public function setLatitude(float $latitude)
+    {
+        $this->latitude = $latitude;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of longitude
+     *
+     * @return  float
+     */
+    public function getLongitude()
+    {
+        return $this->longitude;
+    }
+
+    /**
+     * Set the value of longitude
+     *
+     * @param  float  $longitude
+     *
+     * @return  self
+     */
+    public function setLongitude(float $longitude)
+    {
+        $this->longitude = $longitude;
 
         return $this;
     }

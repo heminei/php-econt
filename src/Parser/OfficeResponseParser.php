@@ -1,10 +1,10 @@
 <?php
 
-namespace VM5\Econt\Parser;
+namespace HemiFrame\Lib\Econt\Parser;
 
-use VM5\Econt\Model\Office;
-use VM5\Econt\Model\Street;
-use VM5\Econt\Response\OfficesResponse;
+use HemiFrame\Lib\Econt\Model\Office;
+use HemiFrame\Lib\Econt\Model\Street;
+use HemiFrame\Lib\Econt\Response\OfficesResponse;
 
 class OfficeResponseParser implements Parser
 {
@@ -15,22 +15,22 @@ class OfficeResponseParser implements Parser
 
         foreach ($xml->offices->e as $row) {
             $office = new Office();
-            $office->setId((int)$row->id);
+            $office->setId((int) $row->id);
             $office->setName($row->name);
             $office->setNameEnglish($row->name_en);
             $office->setOfficeCode($row->office_code);
-            $office->setIsMachine((boolean)$row->is_machine);
+            $office->setIsMachine((bool) $row->is_machine);
             $office->setCountryCode($row->country_code);
-            $office->setCityId((int)$row->id_city);
+            $office->setCityId((int) $row->id_city);
             $office->setPostCode($row->post_code);
             $office->setCityName($row->city_name);
             $office->setCityNameEnglish($row->city_name_en);
             $office->setAddress($row->address);
             $office->setAddressEnglish($row->address_en);
-            $office->setQuarterId((int)$row->address_details->id_quarter);
+            $office->setQuarterId((int) $row->address_details->id_quarter);
             $office->setQuarterName($row->address_details->quarter_name);
             $office->setQuarterNameEnglish($row->address_details->quarter_name_en);
-            $office->setStreetId((int)$row->address_details->id_street);
+            $office->setStreetId((int) $row->address_details->id_street);
 
 
             $street = new Street();
@@ -55,6 +55,12 @@ class OfficeResponseParser implements Parser
             $office->setHubCode($row->hub_code);
             $office->setHubName($row->hub_name);
             $office->setHubNameEnglish($row->hub_name_en);
+            $office->setIsCourier((bool) $row->office_details->courier);
+            $office->setIsPost((bool) $row->office_details->post);
+            $office->setIsCargo((bool) $row->office_details->cargo);
+            $office->setIsCargoExpress((bool) $row->office_details->cargo_express);
+            $office->setLatitude((float) $row->latitude);
+            $office->setLongitude((float) $row->longitude);
 
             $response->addOffice($office);
         }

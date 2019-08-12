@@ -6,10 +6,10 @@
  * Time: 5:26 PM
  */
 
-namespace VM5\Econt\Response;
+namespace HemiFrame\Lib\Econt\Response;
 
 
-use VM5\Econt\Model\Quarter;
+use HemiFrame\Lib\Econt\Model\Quarter;
 
 class QuartersResponse
 {

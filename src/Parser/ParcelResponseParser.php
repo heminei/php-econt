@@ -1,13 +1,13 @@
 <?php
 
-namespace VM5\Econt\Parser;
+namespace HemiFrame\Lib\Econt\Parser;
 
-use VM5\Econt\Exception\InvalidArgumentException;
-use VM5\Econt\Model\Currency;
-use VM5\Econt\Model\Error;
-use VM5\Econt\Model\LoadingPrice;
-use VM5\Econt\Model\ParcelResult;
-use VM5\Econt\Response\ParcelResponse;
+use HemiFrame\Lib\Econt\Exception\InvalidArgumentException;
+use HemiFrame\Lib\Econt\Model\Currency;
+use HemiFrame\Lib\Econt\Model\Error;
+use HemiFrame\Lib\Econt\Model\LoadingPrice;
+use HemiFrame\Lib\Econt\Model\ParcelResult;
+use HemiFrame\Lib\Econt\Response\ParcelResponse;
 
 class ParcelResponseParser implements Parser
 {

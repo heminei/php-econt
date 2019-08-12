@@ -6,7 +6,7 @@
  * Time: 2:30 PM
  */
 
-namespace VM5\Econt\Model;
+namespace HemiFrame\Lib\Econt\Model;
 
 
 class ParcelResult

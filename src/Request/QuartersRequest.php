@@ -6,7 +6,7 @@
  * Time: 5:21 PM
  */
 
-namespace VM5\Econt\Request;
+namespace HemiFrame\Lib\Econt\Request;
 
 
 class QuartersRequest

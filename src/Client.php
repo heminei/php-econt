@@ -1,22 +1,22 @@
 <?php
 
-namespace VM5\Econt;
+namespace HemiFrame\Lib\Econt;
 
 
-use VM5\Econt\Parser\AddressValidationResponseParser;
-use VM5\Econt\Parser\OfficeResponseParser;
-use VM5\Econt\Parser\ParcelResponseParser;
-use VM5\Econt\Parser\Parser;
-use VM5\Econt\Parser\QuartersResponseParser;
-use VM5\Econt\Parser\ZonesResponseParser;
-use VM5\Econt\Request\AddressValidationRequest;
-use VM5\Econt\Request\OfficesRequest;
-use VM5\Econt\Request\ParcelRequest;
-use VM5\Econt\Request\QuartersRequest;
-use VM5\Econt\Request\ZonesRequest;
-use VM5\Econt\RequestBuilder\ParcelRequestBuilder;
-use VM5\Econt\RequestBuilder\RequestBuilder;
-use VM5\Econt\RequestBuilder\ServiceRequestBuilder;
+use HemiFrame\Lib\Econt\Parser\AddressValidationResponseParser;
+use HemiFrame\Lib\Econt\Parser\OfficeResponseParser;
+use HemiFrame\Lib\Econt\Parser\ParcelResponseParser;
+use HemiFrame\Lib\Econt\Parser\Parser;
+use HemiFrame\Lib\Econt\Parser\QuartersResponseParser;
+use HemiFrame\Lib\Econt\Parser\ZonesResponseParser;
+use HemiFrame\Lib\Econt\Request\AddressValidationRequest;
+use HemiFrame\Lib\Econt\Request\OfficesRequest;
+use HemiFrame\Lib\Econt\Request\ParcelRequest;
+use HemiFrame\Lib\Econt\Request\QuartersRequest;
+use HemiFrame\Lib\Econt\Request\ZonesRequest;
+use HemiFrame\Lib\Econt\RequestBuilder\ParcelRequestBuilder;
+use HemiFrame\Lib\Econt\RequestBuilder\RequestBuilder;
+use HemiFrame\Lib\Econt\RequestBuilder\ServiceRequestBuilder;
 
 class Client
 {

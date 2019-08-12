@@ -6,7 +6,7 @@
  * Time: 6:56 PM
  */
 
-namespace VM5\Econt\RequestBuilder;
+namespace HemiFrame\Lib\Econt\RequestBuilder;
 
 
 interface RequestBuilder

@@ -6,7 +6,7 @@
  * Time: 5:44 PM
  */
 
-namespace VM5\Econt\Model;
+namespace HemiFrame\Lib\Econt\Model;
 
 
 class Address

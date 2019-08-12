@@ -6,7 +6,7 @@
  * Time: 4:02 PM
  */
 
-namespace VM5\Econt\Parser;
+namespace HemiFrame\Lib\Econt\Parser;
 
 
 interface Parser

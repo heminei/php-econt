@@ -6,7 +6,7 @@
  * Time: 7:05 PM
  */
 
-namespace VM5\Econt\RequestBuilder;
+namespace HemiFrame\Lib\Econt\RequestBuilder;
 
 
 abstract class AbstractRequestBuilder implements RequestBuilder

@@ -6,10 +6,10 @@
  * Time: 6:42 PM
  */
 
-namespace VM5\Econt\Request;
+namespace HemiFrame\Lib\Econt\Request;
 
 
-use VM5\Econt\Model\Loading;
+use HemiFrame\Lib\Econt\Model\Loading;
 
 class ParcelRequest
 {

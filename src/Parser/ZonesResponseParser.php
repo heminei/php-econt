@@ -1,9 +1,9 @@
 <?php
 
-namespace VM5\Econt\Parser;
+namespace HemiFrame\Lib\Econt\Parser;
 
-use VM5\Econt\Model\Zone;
-use VM5\Econt\Response\ZonesResponse;
+use HemiFrame\Lib\Econt\Model\Zone;
+use HemiFrame\Lib\Econt\Response\ZonesResponse;
 
 class ZonesResponseParser implements Parser
 {

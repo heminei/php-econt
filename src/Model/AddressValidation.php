@@ -6,7 +6,7 @@
  * Time: 5:52 PM
  */
 
-namespace VM5\Econt\Model;
+namespace HemiFrame\Lib\Econt\Model;
 
 
 class AddressValidation

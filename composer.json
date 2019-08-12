@@ -1,21 +1,29 @@
 {
-    "name": "vm5/econt",
+    "name": "hemiframe/php-econt",
     "description": "This bundle provides integration with ECONT Courier",
-    "type": "component",
-    "authors": [{
-            "name": "Bozhidar Hristov",
-            "email": "b.hristov@vm5.eu"
-        }],
+    "version": "2.1.1",
     "keywords": [
-        "econt", "courier"
+        "econt",
+        "courier"
     ],
+    "authors": [{
+        "name": "Martin",
+        "email": "heminei@heminei.com",
+        "role": "Developer"
+    }, {
+        "name": "Bozhidar Hristov",
+        "email": "b.hristov@vm5.eu"
+    }],
+    "support": {
+        "issues": "https://github.com/heminei/php-http-message/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "HemiFrame\\Lib\\Econt\\": "src/"
+        }
+    },
     "require": {
         "guzzlehttp/guzzle": "~6.0",
         "php": "~7.1"
-    },
-    "autoload": {
-	"psr-4": {
-            "VM5\\Econt\\": "src/"
-        }
     }
 }

@@ -6,7 +6,7 @@
  * Time: 3:50 PM
  */
 
-namespace VM5\Econt\Request;
+namespace HemiFrame\Lib\Econt\Request;
 
 
 class OfficesRequest

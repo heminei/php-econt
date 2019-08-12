@@ -1,10 +1,10 @@
 <?php
 
-namespace VM5\Econt\Parser;
+namespace HemiFrame\Lib\Econt\Parser;
 
-use VM5\Econt\Model\AddressValidation;
-use VM5\Econt\Model\Street;
-use VM5\Econt\Response\AddressValidationResponse;
+use HemiFrame\Lib\Econt\Model\AddressValidation;
+use HemiFrame\Lib\Econt\Model\Street;
+use HemiFrame\Lib\Econt\Response\AddressValidationResponse;
 
 class AddressValidationResponseParser implements Parser
 {
