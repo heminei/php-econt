@@ -1,7 +1,7 @@
 {
     "name": "hemiframe/php-econt",
     "description": "This bundle provides integration with ECONT Courier",
-    "version": "2.1.1",
+    "version": "2.1.2",
     "keywords": [
         "econt",
         "courier"
@@ -24,6 +24,6 @@
     },
     "require": {
         "guzzlehttp/guzzle": "~6.0",
-        "php": "~7.1"
+        "php": ">=7.1"
     }
 }
