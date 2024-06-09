@@ -6,14 +6,17 @@
         "econt",
         "courier"
     ],
-    "authors": [{
-        "name": "Martin",
-        "email": "heminei@heminei.com",
-        "role": "Developer"
-    }, {
-        "name": "Bozhidar Hristov",
-        "email": "b.hristov@vm5.eu"
-    }],
+    "authors": [
+        {
+            "name": "Martin",
+            "email": "heminei@heminei.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Bozhidar Hristov",
+            "email": "b.hristov@vm5.eu"
+        }
+    ],
     "support": {
         "issues": "https://github.com/heminei/php-http-message/issues"
     },
@@ -23,7 +26,7 @@
         }
     },
     "require": {
-        "guzzlehttp/guzzle": "~6.0",
+        "guzzlehttp/guzzle": ">=6.0",
         "php": ">=7.1"
     }
 }
