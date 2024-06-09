@@ -1,7 +1,7 @@
 {
     "name": "hemiframe/php-econt",
     "description": "This bundle provides integration with ECONT Courier",
-    "version": "2.1.2",
+    "version": "2.1.3",
     "keywords": [
         "econt",
         "courier"
